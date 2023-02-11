@@ -14,9 +14,9 @@ class _Bottom_BarState extends State<Bottom_Bar> {
   @override
   int _selectedIndex = 0;
   static final List<Widget> _widgetOptions = <Widget>[
+    Ticketscreen(),
     HomeScreen(),
     SearchScreen(),
-    Ticketscreen(),
     const Text("Profile")
   ];
 
